@@ -1,11 +1,60 @@
-<div align="center">
+# 👟 宽足选鞋助手 (Wide Shoe Explorer)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+> **告别挤脚，为你的双脚找回自由。**
 
-  <h1>Built with AI Studio</h2>
+一款专为宽脚、超宽脚以及追求自然足态人群设计的专业选鞋评估工具。本项目通过量化的实测数据，打破品牌虚标的“Wide”迷雾，帮助用户建立科学的选鞋模型。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🌟 核心功能
 
-</div>
+*   **📊 宽度红黑榜 (Quantitative Ranking)**
+    *   收录全球主流品牌及赤足系品牌的实测内衬宽度（毫米 mm）。
+    *   可视化图表展示，直观对比不同品牌的“真实宽度”。
+*   **📐 智能脚型计算器 (Foot Assessment)**
+    *   交互式测量引导，帮助用户获取精准的脚部宽度数值。
+    *   基于数据的专家级评估，根据数值自动划分五个宽度等级。
+*   **🔍 核心逻辑区分 (Anatomical vs. Volume)**
+    *   深度解析“解剖学足形楦 (Anatomical Last)”与“传统加宽 (Volume Wide)”的区别。
+    *   提供避坑指南，解释为什么某些品牌的 4E 依然挤脚。
+*   **🖼️ 精准匹配推荐 (Smart Recommendation)**
+    *   根据输入数值，动态推荐匹配度最高的鞋款照片与详细参数。
+
+---
+
+## 🛠️ 技术栈
+
+*   **Frontend**: React 18 + TypeScript + Vite
+*   **Styling**: Tailwind CSS (Bento Grid 响应式布局风格)
+*   **Animation**: Framer Motion
+*   **Visualization**: Recharts
+*   **Icons**: Lucide React
+
+---
+
+## 📖 如何使用
+
+1.  **测量**：按照计算器页面的引导，测量您最宽处的足部毫米数值。
+2.  **评估**：输入数值，获取您的宽度评级（从窄、标准到极宽）。
+3.  **选鞋**：参考“为您定制的精品鞋款”或查看完整的“宽度排名”榜单进行决策。
+
+---
+
+## 🔗 数据声明
+
+本项目数据来源涵盖：
+- 全球跑步装备测评站 (如 RunRepeat)
+- 品牌官方数据规格表
+- 赤足系鞋类数据库 (Barefoot Universe)
+- 资深运动鞋博主实测内衬数据
+
+---
+
+## 🚀 开发者与社区
+
+本项目旨在通过数据透明化，解决宽脚人群的痛点。欢迎在 GitHub 上提出建议、提交遗漏的鞋款数据，或者分享您的穿着体验。
+
+**“鞋子合适不合适，只有脚知道；但数据能让你在穿之前就少走弯路。”**
+
+---
+© 2026 Wide Shoe Explorer | 宽足数据实验室
